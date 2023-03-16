@@ -20,9 +20,7 @@ function isPalindroma(word) {
         reverseWord += word[i];
     }
     console.log(reverseWord);
-    let isPal = false;
     if (reverseWord === word) {
-        isPal = true;
         return "E' Palindroma!";
     } else {
         return "Non è Palindroma";
