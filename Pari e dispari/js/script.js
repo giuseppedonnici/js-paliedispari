@@ -20,7 +20,7 @@ console.log(`La tua scelta è: ${sceltaPariDispari}`);
 let sceltaNumero;
 do {
     sceltaNumero = parseInt(prompt("Scegli un numero da 1 a 5"));
-} while (sceltaNumero < 1 || sceltaNumero > 5);
+} while (sceltaNumero < 1 || sceltaNumero > 5 || isNaN(sceltaNumero));
 
 console.log(`Il numero che hai scelto è: ${sceltaNumero}`);
 
