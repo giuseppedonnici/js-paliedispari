@@ -44,7 +44,7 @@ if (risultatoFinale === sceltaPariDispari) {
 /**
  * Descrizione: Dato un numero controlla se è pari o dispari
  * @param {number} number 
- * @returns stringa
+ * @returns {string} "pari" se il numero è pari, altrimenti "dispari" 
  */
 function isPariOrDispari(number) {
     let result;
